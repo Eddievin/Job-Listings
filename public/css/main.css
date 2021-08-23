@@ -2601,6 +2601,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px;
   background-color: #cff5ff80;
   margin-bottom: 30px;
+
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .post-list .single-post h6 {
@@ -2760,9 +2767,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .sidebar .single-slidebar {
-  background-color: #f9f9ff;
+  background-color: #4bd6a1;
   padding: 30px 20px;
   margin-bottom: 30px;
+
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .sidebar .single-slidebar h4 {
