@@ -13,6 +13,7 @@
                     <div class="row justify-content-center form-wrap">
                         <div class="col-lg-4 form-cols">
                             <input type="text" class="form-control" name="search" placeholder="What are you looking for here?">
+                            <input type="text" class="form-control" name="search" placeholder="What are you looking for here?">
                         </div>
                         <div class="col-lg-3 form-cols">
                             <div class="default-select" id="default-selects">
