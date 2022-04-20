@@ -7,7 +7,7 @@
         <div class="row fullscreen d-flex align-items-center justify-content-center">
             <div class="banner-content col-lg-12">
                 <h1 class="text-white">
-                    <span>1500+</span> Jobs posted last week
+                    <span>1500+</span> Jobs posted in the past week
                 </h1>
                 <form action="{{ route('search') }}" class="serach-form-area">
                     <div class="row justify-content-center form-wrap">
@@ -44,7 +44,6 @@
                 </form>
                 <p class="text-white"> <span>Search by categories:</span>
                 @foreach($searchByCategory as $id=>$searchByCategory)
-                    <a href="{{ route('categories.show', $id) }}" class="text-white">{{ $searchByCategory }}</a>@if (!$loop->last),@endif
                     <a href="{{ route('categories.show', $id) }}" class="text-white">{{ $searchByCategory }}</a>@if (!$loop->last),@endif
                 @endforeach
                 </p>
