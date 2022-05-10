@@ -15,7 +15,16 @@
                             <input type="text" class="form-control" name="search" placeholder="What are you looking for here?">
 
                         </div>
-                        
+                        <div class="col-lg-3 form-cols">
+                            <div class="default-select" id="default-selects">
+                                <select name="location">
+                                    <option value="0">All Areas</option>
+                                    @foreach($searchLocations as $id=>$searchLocations)
+                                        <option value="{{ $id }}">{{ $searchLocations }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
                         <div class="col-lg-3 form-cols">
                             <div class="default-select" id="default-selects2">
                                 <select name="category">
