@@ -79,7 +79,7 @@
         </div>
     @endforeach
 
-    <a class="text-uppercase loadmore-btn mx-auto d-block" href="{{ route('jobs.index') }}">Load More Job Posts</a>
+   
 </div>
 @endsection
 
